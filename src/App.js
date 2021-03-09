@@ -9,12 +9,14 @@ import {
   Link
 } from "react-router-dom";
 import CountryDetail from './Component/CountryDetail/CountryDetail';
+import Header from './Component/Header/Header';
 
 function App() {
   return (
     <div>
      
      <Router>
+       <Header></Header>
        <Switch>
       
          <Route path='/Home'>
