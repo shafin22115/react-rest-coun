@@ -11,7 +11,7 @@ const Country = (props) => {
     history.push(`/country/${countryName}`);
   }
   return (
-    <div className="col-md-4 col-sm-12 main">
+    <div className="col-lg-4 col-md-6 col-12 main">
       {/* <div className="bg-warning col-md-4">
             <img src={flag} alt=""/>
             <h1>Name: {name}</h1>
